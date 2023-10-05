@@ -14,6 +14,20 @@
 		header {
 			margin-bottom:40px;
 		}
+        header h1 {
+            position: relative;
+            /*text-shadow: 1px 1px 7px rgba(115,82,255,0.92);*/
+            padding-bottom: 40px;
+        }
+        header h1:after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            margin-left: -100px;
+            bottom: 0;
+            width: 200px;
+            border-bottom: 2px dashed #ccc;
+        }
 		#logo {
 			border:0;
 		}
